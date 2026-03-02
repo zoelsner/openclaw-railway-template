@@ -3,6 +3,7 @@ FROM node:22-bookworm
 RUN apt-get update \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     ca-certificates \
+    ffmpeg \
     curl \
     git \
     gosu \
